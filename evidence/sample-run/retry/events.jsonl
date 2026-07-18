@@ -1,0 +1,12 @@
+{"event":"job.enqueued","job_id":"job_63be87d4c560e357f8526619","level":"INFO","requires_approval":true,"status":"pending","ts_epoch":1700000000.0}
+{"attempt":1,"event":"provider.attempt_started","job_id":"job_63be87d4c560e357f8526619","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.0}
+{"delay_seconds":0.25,"event":"job.retry_scheduled","failure_code":"transient_provider_error","job_id":"job_63be87d4c560e357f8526619","level":"WARNING","next_attempt":2,"ts_epoch":1700000000.0}
+{"delay_seconds":0.25,"event":"job.retry_sleep","job_id":"job_63be87d4c560e357f8526619","level":"INFO","next_attempt":2,"ts_epoch":1700000000.0}
+{"attempt":2,"event":"provider.attempt_started","job_id":"job_63be87d4c560e357f8526619","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.25}
+{"delay_seconds":0.5,"event":"job.retry_scheduled","failure_code":"transient_provider_error","job_id":"job_63be87d4c560e357f8526619","level":"WARNING","next_attempt":3,"ts_epoch":1700000000.25}
+{"delay_seconds":0.5,"event":"job.retry_sleep","job_id":"job_63be87d4c560e357f8526619","level":"INFO","next_attempt":3,"ts_epoch":1700000000.25}
+{"attempt":3,"event":"provider.attempt_started","job_id":"job_63be87d4c560e357f8526619","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.75}
+{"attempt_count":3,"confidence":0.96,"event":"job.awaiting_approval","job_id":"job_63be87d4c560e357f8526619","level":"INFO","status":"awaiting_approval","ts_epoch":1700000000.75}
+{"decision":"approve","event":"demo.human_review","job_id":"job_63be87d4c560e357f8526619","level":"INFO","output_committed":false,"ts_epoch":1700000000.75}
+{"actor":"demo-reviewer","event":"job.approved","job_id":"job_63be87d4c560e357f8526619","level":"INFO","status":"succeeded","ts_epoch":1700000000.75}
+{"approval_gate_observed":true,"event":"demo.summary","failure_code":null,"final_status":"succeeded","job_id":"job_63be87d4c560e357f8526619","level":"INFO","persisted_record":"evidence/sample-run/retry/jobs/job_63be87d4c560e357f8526619.json","provider_calls":3,"retry_sleeps":[0.25,0.5],"scenario":"retry","token_refreshes":0,"ts_epoch":1700000000.75}

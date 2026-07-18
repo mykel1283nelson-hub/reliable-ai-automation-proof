@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reliable-ai-automation-proof"
+version = "1.0.0"
+description = "A dependency-free reference implementation of durable AI automation orchestration"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Mykel Nelson" }]
+
+[project.urls]
+Homepage = "https://github.com/mykel1283nelson-hub/reliable-ai-automation-proof"
+Repository = "https://github.com/mykel1283nelson-hub/reliable-ai-automation-proof.git"
+Issues = "https://github.com/mykel1283nelson-hub/reliable-ai-automation-proof/issues"
+
+[tool.setuptools]
+packages = ["reliable_automation"]

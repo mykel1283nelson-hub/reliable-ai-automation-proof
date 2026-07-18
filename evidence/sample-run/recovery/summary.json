@@ -1,0 +1,11 @@
+{
+  "approval_gate_observed": true,
+  "failure_code": null,
+  "final_status": "succeeded",
+  "job_id": "job_26d6eec67e08549928e1b5e5",
+  "persisted_record": "evidence/sample-run/recovery/jobs/job_26d6eec67e08549928e1b5e5.json",
+  "provider_calls": 1,
+  "retry_sleeps": [],
+  "scenario": "recovery",
+  "token_refreshes": 0
+}

@@ -1,0 +1,11 @@
+{
+  "approval_gate_observed": false,
+  "failure_code": "malformed_provider_output",
+  "final_status": "dead_letter",
+  "job_id": "job_7dd3c5cab22a4492f82d19a7",
+  "persisted_record": "evidence/sample-run/malformed/jobs/job_7dd3c5cab22a4492f82d19a7.json",
+  "provider_calls": 1,
+  "retry_sleeps": [],
+  "scenario": "malformed",
+  "token_refreshes": 0
+}

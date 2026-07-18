@@ -1,0 +1,8 @@
+{"event":"job.enqueued","job_id":"job_abaf337162030534c841e9e9","level":"INFO","requires_approval":true,"status":"pending","ts_epoch":1700000000.0}
+{"attempt":1,"event":"provider.attempt_started","job_id":"job_abaf337162030534c841e9e9","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.0}
+{"attempt_count":1,"confidence":0.96,"event":"job.awaiting_approval","job_id":"job_abaf337162030534c841e9e9","level":"INFO","status":"awaiting_approval","ts_epoch":1700000000.0}
+{"decision":"approve","event":"demo.human_review","job_id":"job_abaf337162030534c841e9e9","level":"INFO","output_committed":false,"ts_epoch":1700000000.0}
+{"actor":"demo-reviewer","event":"job.approved","job_id":"job_abaf337162030534c841e9e9","level":"INFO","status":"succeeded","ts_epoch":1700000000.0}
+{"attempt_count":1,"event":"job.idempotency_hit","job_id":"job_abaf337162030534c841e9e9","level":"INFO","status":"succeeded","ts_epoch":1700000000.0}
+{"event":"job.run_noop","job_id":"job_abaf337162030534c841e9e9","level":"INFO","reason":"terminal_or_waiting_for_human","status":"succeeded","ts_epoch":1700000000.0}
+{"approval_gate_observed":true,"event":"demo.summary","failure_code":null,"final_status":"succeeded","job_id":"job_abaf337162030534c841e9e9","level":"INFO","persisted_record":"evidence/sample-run/idempotency/jobs/job_abaf337162030534c841e9e9.json","provider_calls":1,"retry_sleeps":[],"scenario":"idempotency","token_refreshes":0,"ts_epoch":1700000000.0}

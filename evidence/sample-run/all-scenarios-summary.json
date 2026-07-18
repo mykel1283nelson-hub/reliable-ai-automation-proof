@@ -1,0 +1,85 @@
+[
+  {
+    "approval_gate_observed": true,
+    "failure_code": null,
+    "final_status": "succeeded",
+    "job_id": "job_69840f644b1d4ecba40e35e2",
+    "persisted_record": "evidence/sample-run/success/jobs/job_69840f644b1d4ecba40e35e2.json",
+    "provider_calls": 1,
+    "retry_sleeps": [],
+    "scenario": "success",
+    "token_refreshes": 0
+  },
+  {
+    "approval_gate_observed": true,
+    "failure_code": null,
+    "final_status": "succeeded",
+    "job_id": "job_63be87d4c560e357f8526619",
+    "persisted_record": "evidence/sample-run/retry/jobs/job_63be87d4c560e357f8526619.json",
+    "provider_calls": 3,
+    "retry_sleeps": [
+      0.25,
+      0.5
+    ],
+    "scenario": "retry",
+    "token_refreshes": 0
+  },
+  {
+    "approval_gate_observed": true,
+    "failure_code": null,
+    "final_status": "succeeded",
+    "job_id": "job_1fb241879be74ecb5ffca60d",
+    "persisted_record": "evidence/sample-run/token-refresh/jobs/job_1fb241879be74ecb5ffca60d.json",
+    "provider_calls": 2,
+    "retry_sleeps": [],
+    "scenario": "token-refresh",
+    "token_refreshes": 1
+  },
+  {
+    "approval_gate_observed": false,
+    "failure_code": "malformed_provider_output",
+    "final_status": "dead_letter",
+    "job_id": "job_7dd3c5cab22a4492f82d19a7",
+    "persisted_record": "evidence/sample-run/malformed/jobs/job_7dd3c5cab22a4492f82d19a7.json",
+    "provider_calls": 1,
+    "retry_sleeps": [],
+    "scenario": "malformed",
+    "token_refreshes": 0
+  },
+  {
+    "approval_gate_observed": false,
+    "failure_code": "provider_timeout",
+    "final_status": "dead_letter",
+    "job_id": "job_6ec58a5af04958fc95bbad47",
+    "persisted_record": "evidence/sample-run/timeout/jobs/job_6ec58a5af04958fc95bbad47.json",
+    "provider_calls": 3,
+    "retry_sleeps": [
+      0.25,
+      0.5
+    ],
+    "scenario": "timeout",
+    "token_refreshes": 0
+  },
+  {
+    "approval_gate_observed": true,
+    "failure_code": null,
+    "final_status": "succeeded",
+    "job_id": "job_26d6eec67e08549928e1b5e5",
+    "persisted_record": "evidence/sample-run/recovery/jobs/job_26d6eec67e08549928e1b5e5.json",
+    "provider_calls": 1,
+    "retry_sleeps": [],
+    "scenario": "recovery",
+    "token_refreshes": 0
+  },
+  {
+    "approval_gate_observed": true,
+    "failure_code": null,
+    "final_status": "succeeded",
+    "job_id": "job_abaf337162030534c841e9e9",
+    "persisted_record": "evidence/sample-run/idempotency/jobs/job_abaf337162030534c841e9e9.json",
+    "provider_calls": 1,
+    "retry_sleeps": [],
+    "scenario": "idempotency",
+    "token_refreshes": 0
+  }
+]

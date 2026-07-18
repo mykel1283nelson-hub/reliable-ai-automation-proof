@@ -1,0 +1,9 @@
+{"event":"job.enqueued","job_id":"job_1fb241879be74ecb5ffca60d","level":"INFO","requires_approval":true,"status":"pending","ts_epoch":1700000000.0}
+{"attempt":1,"event":"provider.attempt_started","job_id":"job_1fb241879be74ecb5ffca60d","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.0}
+{"event":"provider.token_expired","job_id":"job_1fb241879be74ecb5ffca60d","level":"WARNING","refresh_attempt":1,"ts_epoch":1700000000.0}
+{"event":"provider.token_refreshed","job_id":"job_1fb241879be74ecb5ffca60d","level":"INFO","refresh_count":1,"ts_epoch":1700000000.0}
+{"attempt":2,"event":"provider.attempt_started","job_id":"job_1fb241879be74ecb5ffca60d","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.0}
+{"attempt_count":2,"confidence":0.96,"event":"job.awaiting_approval","job_id":"job_1fb241879be74ecb5ffca60d","level":"INFO","status":"awaiting_approval","ts_epoch":1700000000.0}
+{"decision":"approve","event":"demo.human_review","job_id":"job_1fb241879be74ecb5ffca60d","level":"INFO","output_committed":false,"ts_epoch":1700000000.0}
+{"actor":"demo-reviewer","event":"job.approved","job_id":"job_1fb241879be74ecb5ffca60d","level":"INFO","status":"succeeded","ts_epoch":1700000000.0}
+{"approval_gate_observed":true,"event":"demo.summary","failure_code":null,"final_status":"succeeded","job_id":"job_1fb241879be74ecb5ffca60d","level":"INFO","persisted_record":"evidence/sample-run/token-refresh/jobs/job_1fb241879be74ecb5ffca60d.json","provider_calls":2,"retry_sleeps":[],"scenario":"token-refresh","token_refreshes":1,"ts_epoch":1700000000.0}

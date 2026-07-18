@@ -1,0 +1,11 @@
+{
+  "approval_gate_observed": true,
+  "failure_code": null,
+  "final_status": "succeeded",
+  "job_id": "job_abaf337162030534c841e9e9",
+  "persisted_record": "evidence/sample-run/idempotency/jobs/job_abaf337162030534c841e9e9.json",
+  "provider_calls": 1,
+  "retry_sleeps": [],
+  "scenario": "idempotency",
+  "token_refreshes": 0
+}

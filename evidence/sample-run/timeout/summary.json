@@ -1,0 +1,14 @@
+{
+  "approval_gate_observed": false,
+  "failure_code": "provider_timeout",
+  "final_status": "dead_letter",
+  "job_id": "job_6ec58a5af04958fc95bbad47",
+  "persisted_record": "evidence/sample-run/timeout/jobs/job_6ec58a5af04958fc95bbad47.json",
+  "provider_calls": 3,
+  "retry_sleeps": [
+    0.25,
+    0.5
+  ],
+  "scenario": "timeout",
+  "token_refreshes": 0
+}

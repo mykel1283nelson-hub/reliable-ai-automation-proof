@@ -1,0 +1,27 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.14"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Compile modules
+        run: python -m compileall -q reliable_automation tests
+      - name: Run deterministic test suite
+        run: python -m unittest discover -s tests -v
+      - name: Run every proof scenario
+        run: python -m reliable_automation --state-dir runtime/ci-demo demo all --reset

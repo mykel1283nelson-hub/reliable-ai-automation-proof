@@ -1,0 +1,14 @@
+{
+  "approval_gate_observed": true,
+  "failure_code": null,
+  "final_status": "succeeded",
+  "job_id": "job_63be87d4c560e357f8526619",
+  "persisted_record": "evidence/sample-run/retry/jobs/job_63be87d4c560e357f8526619.json",
+  "provider_calls": 3,
+  "retry_sleeps": [
+    0.25,
+    0.5
+  ],
+  "scenario": "retry",
+  "token_refreshes": 0
+}

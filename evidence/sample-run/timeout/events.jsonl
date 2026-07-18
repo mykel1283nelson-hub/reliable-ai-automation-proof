@@ -1,0 +1,10 @@
+{"event":"job.enqueued","job_id":"job_6ec58a5af04958fc95bbad47","level":"INFO","requires_approval":true,"status":"pending","ts_epoch":1700000000.0}
+{"attempt":1,"event":"provider.attempt_started","job_id":"job_6ec58a5af04958fc95bbad47","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.0}
+{"delay_seconds":0.25,"event":"job.retry_scheduled","failure_code":"provider_timeout","job_id":"job_6ec58a5af04958fc95bbad47","level":"WARNING","next_attempt":2,"ts_epoch":1700000000.0}
+{"delay_seconds":0.25,"event":"job.retry_sleep","job_id":"job_6ec58a5af04958fc95bbad47","level":"INFO","next_attempt":2,"ts_epoch":1700000000.0}
+{"attempt":2,"event":"provider.attempt_started","job_id":"job_6ec58a5af04958fc95bbad47","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.25}
+{"delay_seconds":0.5,"event":"job.retry_scheduled","failure_code":"provider_timeout","job_id":"job_6ec58a5af04958fc95bbad47","level":"WARNING","next_attempt":3,"ts_epoch":1700000000.25}
+{"delay_seconds":0.5,"event":"job.retry_sleep","job_id":"job_6ec58a5af04958fc95bbad47","level":"INFO","next_attempt":3,"ts_epoch":1700000000.25}
+{"attempt":3,"event":"provider.attempt_started","job_id":"job_6ec58a5af04958fc95bbad47","level":"INFO","timeout_seconds":1.5,"ts_epoch":1700000000.75}
+{"attempt_count":3,"event":"job.dead_lettered","failure_code":"provider_timeout","job_id":"job_6ec58a5af04958fc95bbad47","level":"ERROR","retryable":true,"ts_epoch":1700000000.75}
+{"approval_gate_observed":false,"event":"demo.summary","failure_code":"provider_timeout","final_status":"dead_letter","job_id":"job_6ec58a5af04958fc95bbad47","level":"INFO","persisted_record":"evidence/sample-run/timeout/jobs/job_6ec58a5af04958fc95bbad47.json","provider_calls":3,"retry_sleeps":[0.25,0.5],"scenario":"timeout","token_refreshes":0,"ts_epoch":1700000000.75}
